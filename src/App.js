@@ -23,6 +23,7 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes>
+              {/* <Route path="/crypto-currency" element={<Homepage />} /> */}
               <Route path="/" element={<Homepage />} />
               <Route path="/exchanges" element={<Exchanges />} />
               <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />

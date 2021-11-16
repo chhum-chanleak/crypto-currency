@@ -28,7 +28,7 @@ const News = ({ simplified }) => {
           <Select
             showSearch
             className="select-news"
-            placeholder="Select a Crypto"
+            placeholder="Select a Crypto..."
             optionFilterProp="children"
             onChange={(value) => setNewsCategory(value)}
             filterOption={(input, option) =>
