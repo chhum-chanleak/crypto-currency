@@ -23,7 +23,7 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes>
-              {/* <Route path="/crypto-currency" element={<Homepage />} /> */}
+              <Route path="/crypto-currency" element={<Homepage />} />
               <Route path="/" element={<Homepage />} />
               <Route path="/exchanges" element={<Exchanges />} />
               <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
@@ -37,7 +37,7 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            Cryptoverse <br />
+            Crypto-World <br />
             All rights reserved
           </Typography.Title>
           <Space>
