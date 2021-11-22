@@ -7,7 +7,7 @@ export const SocialData = [
 
   {
     platform: "Github",
-    link: "https://github.com/chhum-chanleak",
+    link: "https://github.com/chhum-chanleak/crypto-currency",
     icon: require("../../assets/icons/github.png").default,
   },
 
