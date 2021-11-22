@@ -1,6 +1,7 @@
 import React from "react";
 import { Layout, Typography, Space } from "antd";
 //components
+
 import { Routes, Route, Link } from "react-router-dom";
 import {
   Navbar,
@@ -9,6 +10,7 @@ import {
   Cryptocurrencies,
   CryptoDetails,
   News,
+  Footer,
 } from "./components";
 //styles
 import "./App.css";
@@ -45,6 +47,7 @@ const App = () => {
             <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
           </Space>
+          <Footer />
         </div>
       </div>
     </div>
